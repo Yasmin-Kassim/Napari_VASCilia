@@ -45,8 +45,13 @@ There are many buttoms inside the blugin in the right hand side of Napari:
 4. "Rotate' buttom: this buttom allows to rotate the stack to have proper analysis 
 5. Segment with 3DCiliaSeg: 3DCiliaSeg is two steps algorithm (2D detection + multi-object assignment algorithm across all slices) to produce robust 3D detection. 3DCiliaSeg is the first instance segmentation model for stereocilia bundles in the literature. It is trained on 46 stacks and it produce highly acccurate boundary delineation even in the most challenging datasets. Here are some examples:  
 
+[Stereocilia bundles detection for one frame(slice) of the stack
 ![Stereocilia bundles detection for one frame(slice) of the stack](images/one_frame_detection.png)
+
+multi-object assignment algorithm to produce robust 3D detection
 ![multi-object assignment algorithm to produce robust 3D detection](images/multi_object_ass_algorithm.png)
+
+3DCiliaSeg can tackles challenged cases
 ![3DCiliaSeg can tackles challenged cases](images/challenged_cases.png)
 
 ### Project Authors and Contacts
