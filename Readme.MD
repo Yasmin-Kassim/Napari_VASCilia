@@ -5,11 +5,7 @@ VASCilia plugin will be a fortune for ear research community for it's use simpli
 We provide all the models that is needed to perform 3D segmentation and also region classification.
 We also make a full training section available to the research community for their datasets if they use different staining. Through the training section, you can annotate, re-fine predicted objects and train a new 3D segmentation model.
 
-
-
-The culmination of this robust pipeline is a comprehensive suite of results: 11 detailed figures that capture the essence of your analysis, 6 tables that organize data into digestible formats, and a pair of Segmentation Masks that reveal the intricacies within your samples. This is more than just data processing; it's the art of transforming complex information into actionable insights.
-
-![Pipeline Diagram](images/PhenoRapid_pipeline.png)
+![Pipeline Diagram](images/VASCilia.png)
 
 
 # How to use PhenoRapid
