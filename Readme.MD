@@ -33,6 +33,8 @@ pip install czitools
 pip install scikit-learn  
 pip install torch torchvision torchaudio  
 
+Download the trained models from https://www.dropbox.com/scl/fo/xh40g5htgw6lnzxfaqf8f/h?rlkey=9di5nl7f1uq2v623cfc9gki7j&dl=0  
+
 ### Project Authors and Contacts
 
 **Python Implementation of this repository:** Dr. Yasmin M. Kassim    
