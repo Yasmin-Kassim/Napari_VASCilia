@@ -23,14 +23,15 @@ Join the vanguard of auditory research with VASCilia—where sophistication meet
 
 ## How to install :  
 
-Open your linux terminal, install anaconda and copy and paste this command:
-
-conda create -n rapids-22.04 -c rapidsai -c nvidia -c conda-forge \
-    rapids=22.04 python=3.8 cudatoolkit=11.5 dask-sql
-
-conda activate rapids-22.04
-
-pip install scanpy
+conda create -y -n napari-env -c conda-forge python=3.10
+conda activate napari-env
+python -m pip install "napari[all]"
+pip install matplotlib
+pip install seaborn
+pip install opencv-python
+pip install czitools
+pip install scikit-learn
+pip install torch torchvision torchaudio
 
 ### Project Authors and Contacts
 
