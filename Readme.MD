@@ -34,6 +34,8 @@ pip install scikit-learn
 pip install torch torchvision torchaudio  
 
 Download the trained models from https://www.dropbox.com/scl/fo/xh40g5htgw6lnzxfaqf8f/h?rlkey=9di5nl7f1uq2v623cfc9gki7j&dl=0  
+Change self.wsl_executable, self.model, self.model_region_prediction and self.model_output_path according to your path directory and the downloaded models
+Run Napari_VASCilia_v1_1_0.py  
 
 ### Project Authors and Contacts
 
