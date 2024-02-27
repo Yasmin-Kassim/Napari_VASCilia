@@ -40,7 +40,7 @@ pip install scanpy
 **Stacks used in this study imaged by:** Dr. David Rosenberg   
 **Contact:** d2rosenberg@UCSD.EDU
 
-Four undergraduate students participated in annotating the manual ground truth using CVAT annotation tool: Zhuoling Huang, Samia Rahman, Ibraheem Al Shammaa, Samer Salim, and Kevin Huang 
+Five undergraduate students participated in annotating the manual ground truth using CVAT annotation tool: Zhuoling Huang, Samia Rahman, Ibraheem Al Shammaa, Samer Salim, and Kevin Huang 
 
 **Lab Supervisor:** Dr. Uri Manor   
 **Contact:** u1manor@UCSD.EDU  
