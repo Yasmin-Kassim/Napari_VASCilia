@@ -45,7 +45,7 @@ Five undergraduate students participated in annotating the manual ground truth u
 
 **Lab Supervisor:** Dr. Uri Manor   
 **Contact:** u1manor@UCSD.EDU  
-**Department:** Cell and Development Biology Department/ UCSD
+**Department:** Cell and Development Biology Department/ UCSD  
 **Lab Website:** https://manorlab.ucsd.edu/
 
 
