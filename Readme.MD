@@ -23,15 +23,15 @@ Join the vanguard of auditory research with VASCilia—where sophistication meet
 
 ## How to install :  
 
-conda create -y -n napari-env -c conda-forge python=3.10
-conda activate napari-env
-python -m pip install "napari[all]"
-pip install matplotlib
-pip install seaborn
-pip install opencv-python
-pip install czitools
-pip install scikit-learn
-pip install torch torchvision torchaudio
+conda create -y -n napari-VASCilia -c conda-forge python=3.10  
+conda activate napari-VASCilia  
+python -m pip install "napari[all]"  
+pip install matplotlib  
+pip install seaborn  
+pip install opencv-python  
+pip install czitools  
+pip install scikit-learn  
+pip install torch torchvision torchaudio  
 
 ### Project Authors and Contacts
 
