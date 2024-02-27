@@ -1,11 +1,11 @@
 # VASCilia: A Napari Plugin for Cochlear StereoCilia Analysis
-Explore the complexities of the cochlea with VASCilia, a Napari plugin created to aid in the 3D segmentation and quantification of stereocilia bundles. Equipped with a range of thoughtful features, VASCilia provides a supportive tool for auditory research, including:
+Explore the complexities of the cochlea with VASCilia, a Napari plugin created to aid in the 3D segmentation and quantification of stereocilia bundles. Equipped with a range of thoughtful features, VASCilia stands for (Vision Analysis StereoCilia) and it provides a supportive tool for auditory research, including:
 
 1. Slice Selection: Easily navigate through 3D stacks to find the slices that matter most for your research.
 2. Stack Rotation: Adjust the orientation of your stack to facilitate better analysis.
 3. 3D Instance Segmentation: Identify and assess individual bundles with clear separation.
 4. Bundle Deletion: Remove unwanted bundles to streamline your dataset.
-5. Regional Classification: Sort bundles into BASE, MIDDLE, or APEX categories.
+5. Regional Classification: identify whether the region is from BASE, MIDDLE, or APEX in the cochlea.
 6. Hair Cell Differentiation: Distinguish between Inner Hair Cells and Outer Hair Cells with confidence.
 7. Measurement Analysis: Calculate various measurements such as volume, centroid location, and surface area.
 8. Protein Intensity Analysis: Assess the intensity of proteins like EPS8 with detailed precision.
