@@ -1,6 +1,6 @@
 # Vision Analysis Tool for StereoCilia Hair Bundles in the Cochlea
  
- We created VASCilia is the first Napari plugin to 3D segment and quantify the stereocilia bundles in the cochlea. It has many functions including 
+ VASCilia is the first Napari plugin to 3D segment and quantify the stereocilia bundles in the cochlea. It has many functions including 
 1) finding the slices of interest within the 3D stack, 
 2) Stack Rotation, 
 3) 3D Instance Segmentation, 
