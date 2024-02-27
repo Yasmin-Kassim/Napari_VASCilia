@@ -1,6 +1,16 @@
 # Vision Analysis Tool for StereoCilia Hair Bundles in the Cochlea
  
- We created VASCilia is the first Napari plugin to 3D segment and quantify the stereocilia bundles in the cochlea. It has many functions including 1) finding the slices of interest within the 3D stack, 2) Stack Rotation, 3) 3D Instance Segmentation, 4) Multi-object assignment for the bundles, 5) different ways of visualization, 6) Region classification (BASE, MIDDLE, APEX), 7) Identify IHCs vs OHCs, 8) Calculate different measurments (volume, centroid, surface area, ..etc), 9) Compute protein intensity (EPS8 protein), 10) Find the distance from the peak to the base of each bundle in 3D based on sample resolution.
+ We created VASCilia is the first Napari plugin to 3D segment and quantify the stereocilia bundles in the cochlea. It has many functions including 
+1) finding the slices of interest within the 3D stack, 
+2) Stack Rotation, 
+3) 3D Instance Segmentation, 
+4) Multi-object assignment for the bundles, 
+5) different ways of visualization, 
+6) Region classification (BASE, MIDDLE, APEX), 
+7) Identify IHCs vs OHCs, 
+8) Calculate different measurments (volume, centroid, surface area, ..etc), 
+9) Compute protein intensity (EPS8 protein), 10) Find the distance from the peak to the base of each bundle in 3D based on sample resolution.
+
 VASCilia plugin will be a fortune for ear research community for it's use simplicity and the many measurments that are widely needed by almost every lab works in this area.
 We provide all the models that is needed to perform 3D segmentation and also region classification.
 We also make a full training section available to the research community for their datasets if they use different staining. Through the training section, you can annotate, re-fine predicted objects and train a new 3D segmentation model.
