@@ -10,6 +10,7 @@ Explore the complexities of the cochlea with VASCilia, a Napari plugin created t
 7. Measurement Analysis: Calculate various measurements such as volume, centroid location, and surface area.
 8. Protein Intensity Analysis: Assess the intensity of proteins like EPS8 with detailed precision.
 9. 3D Distance Calculation: Measure the 3D distance from the peak to the base of each bundle, according to your sample's resolution.
+
 VASCilia is a valuable resource for the ear research community, simplifying the complexity of measurement and analysis. It comes with a suite of pre-trained models to facilitate 3D segmentation and regional classification.
 
 Furthermore, we are committed to supporting research growth with a comprehensive training section for those looking to explore different staining techniques or develop new segmentation models through annotation and refinement.
