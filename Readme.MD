@@ -37,6 +37,14 @@ Download the trained models from https://www.dropbox.com/scl/fo/xh40g5htgw6lnzxf
 Change self.wsl_executable, self.model, self.model_region_prediction and self.model_output_path according to your path directory and the downloaded models  
 Now you are ready to run: Run Napari_VASCilia_v1_1_0.py  :)  
 
+## How to use VASCilia :  
+There are many buttoms inside the blugin in the right hand side of Napari:
+1. 'Open CZI Cochlea Files and Preprocess' buttom: read the CZI file.
+2. 'Upload Processed CZI Stack' buttom: Incase you already have processed the stack, then just uplead your Analysis_state.pkl that usually has all the variables needed to upload your analysis
+3. 'Trim Full Stack' buttom: this buttom allows you to choose only the slices of interest (will be automated in the near future)
+4. "Rotate' buttom: this buttom allows to rotate the stack to have proper analysis
+5. Segment with 3DCiliaSeg
+
 ### Project Authors and Contacts
 
 **Python Implementation of this repository:** Dr. Yasmin M. Kassim    
