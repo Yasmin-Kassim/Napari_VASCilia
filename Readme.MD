@@ -37,6 +37,8 @@ Download the trained models from https://www.dropbox.com/scl/fo/xh40g5htgw6lnzxf
 Change self.wsl_executable, self.model, self.model_region_prediction and self.model_output_path according to your path directory and the downloaded models  
 Now you are ready to run: Run Napari_VASCilia_v1_1_0.py  :)  
 
+You can find one sample from our datasets to try in this link https://www.dropbox.com/scl/fo/pg3i39xaf3vtjydh663n9/h?rlkey=agtnxau73vrv3ism0h55eauek&dl=0
+
 ## How to use VASCilia :  
 There are many buttoms inside the blugin in the right hand side of Napari:
 
