@@ -42,8 +42,11 @@ There are many buttoms inside the blugin in the right hand side of Napari:
 1. 'Open CZI Cochlea Files and Preprocess' buttom: read the CZI file.
 2. 'Upload Processed CZI Stack' buttom: Incase you already have processed the stack, then just uplead your Analysis_state.pkl that usually has all the variables needed to upload your analysis
 3. 'Trim Full Stack' buttom: this buttom allows you to choose only the slices of interest (will be automated in the near future)
-4. "Rotate' buttom: this buttom allows to rotate the stack to have proper analysis
-5. Segment with 3DCiliaSeg
+4. "Rotate' buttom: this buttom allows to rotate the stack to have proper analysis 
+5. Segment with 3DCiliaSeg: 3DCiliaSeg is two steps algorithm (2D detection + multi-object assignment algorithm across all slices) to produce robust 3D detection. 3DCiliaSeg is the first instance segmentation model for stereocilia bundles in the literature. It is trained on 46 stacks and it produce highly acccurate boundary delineation even in the most challenging datasets. Here are some examples:  
+
+![Pipeline Diagram](images/VASCilia.png)
+![Pipeline Diagram](images/VASCilia.png)
 
 ### Project Authors and Contacts
 
