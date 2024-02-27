@@ -57,6 +57,9 @@ Multi-object assignment algorithm to produce robust 3D detection
 3DCiliaSeg can tackles challenged cases
 ![](images/challenged_cases.png)
 
+3DCiliaSeg perfomance reaches F1 measure = 99.4% and Accuracy = 98.8% 
+![](images/Evaluation.png)
+
 7. Delete Label 'buttom': delete the unwanted detection if it is near the boundary or for any other reason.
 8. Calculate measurments 'buttom': calculate different measurments from the detected bundles and store them in csv file
 9. Calculate Distance 'buttom': compute the 3D distance from the highest point in the 3D detection of each bundle to it's base. This calculation will consider the sample resolution.
