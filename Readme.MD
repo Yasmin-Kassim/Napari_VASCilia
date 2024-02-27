@@ -52,6 +52,7 @@ Multi-object assignment algorithm to produce robust 3D detection
 ![multi-object assignment algorithm to produce robust 3D detection](images/multi_object_ass_algorithm.png)
 
 3DCiliaSeg can tackles challenged cases
+
 ![](images/challenged_cases.png)
 
 ### Project Authors and Contacts
