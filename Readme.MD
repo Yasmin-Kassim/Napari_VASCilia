@@ -68,6 +68,7 @@ Multi-object assignment algorithm to produce robust 3D detection
 12. Predict Region 'buttom': Predict whether the region is from the BASE, MIDDLE, or APEX region using a RESNET50 trained model. 
 
 ![Training section](images/Training_section.png)
+
 This section is for the research ear community incase their datasets are little different than ours then they can easily create their cround truth, train a new model and use it in the plugin
 1. Create/Save Ground Truth 'buttom': this buttom will create a new layer to draw new ground truth and save them as variables inside the plugin
 2. Generate Ground Truth Mask 'buttom': this buttom will save all the generated masks after finish annotating to a new folder. 
@@ -78,7 +79,7 @@ This section is for the research ear community incase their datasets are little 
 7. Train New Model for 3DCiliaSeg 'buttom': this buttom will start the training.
 
 We have also two more buttoms for resetting and also exit VASCilia.
-
+We are still working on adding more features to the plugin, so this gihub will be continiuosly updated with new versions.
 
 
 ### Project Authors and Contacts
