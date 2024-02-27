@@ -39,6 +39,9 @@ Now you are ready to run: Run Napari_VASCilia_v1_1_0.py  :)
 
 ## How to use VASCilia :  
 There are many buttoms inside the blugin in the right hand side of Napari:
+
+![Analysis section](images/Analysis_section.png)
+
 1. 'Open CZI Cochlea Files and Preprocess' buttom: read the CZI file.
 2. 'Upload Processed CZI Stack' buttom: Incase you already have processed the stack, then just uplead your Analysis_state.pkl that usually has all the variables needed to upload your analysis
 3. 'Trim Full Stack' buttom: this buttom allows you to choose only the slices of interest (will be automated in the near future)
@@ -60,7 +63,7 @@ Multi-object assignment algorithm to produce robust 3D detection
 10. Perform Cell Clustering 'buttom': find the IHC, OHC1, OHC2, and OHC3 using either GMM or Kmeans. Those layers will be added to the plugin to be used during the analysis 
 11. Compute Protein Intensity 'buttom': produce plots and CSV files that has the accumelated intensity and mean intensity for the protein signal (here it is eps8 protein) 
 
-
+![Training section](images/Training_section.png)
 
 ### Project Authors and Contacts
 
