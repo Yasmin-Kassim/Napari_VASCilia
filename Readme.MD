@@ -1,9 +1,11 @@
-# A rapid High-throughput python-based analysis tool for high-plex images
- Unleash the power of efficiency with just a single click: your high-plex sample undergoes rapid analysis, delivering results in mere minutes. I proudly introduce an innovative pipeline tailored for high-plex image analysis, which embarks on a journey beginning with precise Nuclear and Membrane Segmentation. It progresses through meticulous Computation of Protein Average Intensity, followed by an intricate Protein Cross-Correlation examination. The journey unfolds further into sophisticated Clustering utilizing the cutting-edge RAPIDS library, seamlessly transitioning into Dimension Reduction with PCA for data simplification. The visualization comes to life through TSNE and UMAP, crafting a visual narrative of your data. This analytical odyssey culminates in the production of a diverse array of visual outputs, including but not limited to, informative Pie Charts that encapsulate data elegantly.
+# Vision Analysis Tool for StereoCilia Hair Bundles in the Cochlea
+ 
+ We created VASCilia is the first Napari plugin to 3D segment and quantify the stereocilia bundles in the cochlea. It has many functions including 1) finding the slices of interest within the 3D stack, 2) Stack Rotation, 3) 3D Instance Segmentation, 4) Multi-object assignment for the bundles, 5) different ways of visualization, 6) Region classification (BASE, MIDDLE, APEX), 7) Identify IHCs vs OHCs, 8) Calculate different measurments (volume, centroid, surface area, ..etc), 9) Compute protein intensity (EPS8 protein), 10) Find the distance from the peak to the base of each bundle in 3D based on sample resolution.
+VASCilia plugin will be a fortune for ear research community for it's use simplicity and the many measurments that are widely needed by almost every lab works in this area.
+We provide all the models that is needed to perform 3D segmentation and also region classification.
+We also make a full training section available to the research community for their datasets if they use different staining. Through the training section, you can annotate, re-fine predicted objects and train a new 3D segmentation model.
 
-The culmination of this robust pipeline is a comprehensive suite of results: 11 detailed figures that capture the essence of your analysis, 6 tables that organize data into digestible formats, and a pair of Segmentation Masks that reveal the intricacies within your samples. This is more than just data processing; it's the art of transforming complex information into actionable insights.
-
-![Pipeline Diagram](images/PhenoRapid_pipeline.png)
+![Pipeline Diagram](images/VASCilia.png)
 
 
 # How to use PhenoRapid
