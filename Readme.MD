@@ -1,4 +1,4 @@
-##VASCilia: A Napari Plugin for Cochlear StereoCilia Analysis
+#VASCilia: A Napari Plugin for Cochlear StereoCilia Analysis
 Explore the complexities of the cochlea with VASCilia, a Napari plugin created to aid in the 3D segmentation and quantification of stereocilia bundles. Equipped with a range of thoughtful features, VASCilia provides a supportive tool for auditory research, including:
 
 Slice Selection: Easily navigate through 3D stacks to find the slices that matter most for your research.
