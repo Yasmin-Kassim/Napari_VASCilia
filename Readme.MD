@@ -37,10 +37,10 @@ pip install scanpy
 **Python Implementation of this repository:** Dr. Yasmin M. Kassim    
 **Contact:** ykassim@ucsd.edu
 
-**Stacks used in this study imaged by:** Dr. David Rosenberg 
+**Stacks used in this study imaged by:** Dr. David Rosenberg   
 **Contact:** d2rosenberg@UCSD.EDU
 
-**Lab Mentor:** Dr. Uri Manor 
+**Lab Mentor:** Dr. Uri Manor   
 **Contact:** u1manor@UCSD.EDU
 
 
