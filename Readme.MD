@@ -32,13 +32,15 @@ conda activate rapids-22.04
 
 pip install scanpy
 
-### Project Collaborators and Contact
+### Project Authors and Contacts
 
 **Python Implementation of this repository:** Dr. Yasmin M. Kassim    
 **Contact:** ykassim@ucsd.edu
 
 **Stacks used in this study imaged by:** Dr. David Rosenberg   
 **Contact:** d2rosenberg@UCSD.EDU
+
+Four undergraduate students participated in annotating the manual ground truth using CVAT annotation tool: Zhuoling Huang, Samia Rahman, Ibraheem Al Shammaa, Samer Salim, and Kevin Huang 
 
 **Lab Mentor:** Dr. Uri Manor   
 **Contact:** u1manor@UCSD.EDU
