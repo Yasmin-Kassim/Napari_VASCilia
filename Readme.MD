@@ -21,26 +21,6 @@ Join the vanguard of auditory research with VASCilia—where sophistication meet
 ![Pipeline Diagram](images/VASCilia.png)
 
 
-# How to use PhenoRapid
-
-There are four main sections:
-
-**Section 1: User Configuration:** you need to setup the project path in the code, add the samples that you want to analyze and prepare the marker info tables assotiated to them.   
-![Section1: User Configuration](images/User_config.png)
-
-**Section 2: Analysis of Individual Sampels:** The algorithm starts to do the analysis starting by stardist segmentation, membrane segmentation, create cell information tables, calculate average intensities, run clustering, and producing all the tables and plots.
-
-![Section2: Analysis of Individual Sampels](images/Analysis_of_Individual_Sampels.png)
-
-**Section 3: Analysis after User Phenotyping** At this stage the user needs to phenotype and re-run this section to get all the plots and tables after phenotyping.
-
-![Section3: Analysis after phenotype](images/Analysis_after_phenotype.png)
-
-**Section 4: Analysis of Combined Samples:** Run this section if you want to get the results from multiple samples. 
-
-![Section4: Analysis_of_combined_samples](images/Analysis_of_combined_samples.png)
-
-
 ## How to install :  
 
 Open your linux terminal, install anaconda and copy and paste this command:
@@ -54,7 +34,15 @@ pip install scanpy
 
 ### Project Collaborators and Contact
 
-**Author:** Dr. Yasmin M. Kassim    
-**Contact:** ymkgz8@mail.missouri.edu
+**Python Implementation of this repository:** Dr. Yasmin M. Kassim    
+**Contact:** ykassim@ucsd.edu
 
-Contact me if you are intersted about other machine learning and computer vision tasks such as augmentation, dataset annotation, preprocessing, 2D/3D segmentation, 2D/3D object detection, classsification, and denoising.
+**Stacks used in this study imaged by:** Dr. David Rosenberg
+**Contact:** d2rosenberg@UCSD.EDU
+
+**Lab Mentor:** Dr. Uri Manor
+**Contact:** u1manor@UCSD.EDU
+
+
+
+
