@@ -42,8 +42,9 @@ pip install scanpy
 
 Four undergraduate students participated in annotating the manual ground truth using CVAT annotation tool: Zhuoling Huang, Samia Rahman, Ibraheem Al Shammaa, Samer Salim, and Kevin Huang 
 
-**Lab Mentor:** Dr. Uri Manor   
-**Contact:** u1manor@UCSD.EDU
+**Lab Supervisor:** Dr. Uri Manor   
+**Contact:** u1manor@UCSD.EDU  
+**Department:** Cell and Development Biology Department/ UCSD
 
 
 
