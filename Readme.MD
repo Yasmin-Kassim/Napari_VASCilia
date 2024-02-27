@@ -60,10 +60,23 @@ Multi-object assignment algorithm to produce robust 3D detection
 7. Delete Label 'buttom': delete the unwanted detection if it is near the boundary or for any other reason.
 8. Calculate measurments 'buttom': calculate different measurments from the detected bundles and store them in csv file
 9. Calculate Distance 'buttom': compute the 3D distance from the highest point in the 3D detection of each bundle to it's base. This calculation will consider the sample resolution.
-10. Perform Cell Clustering 'buttom': find the IHC, OHC1, OHC2, and OHC3 using either GMM or Kmeans. Those layers will be added to the plugin to be used during the analysis 
-11. Compute Protein Intensity 'buttom': produce plots and CSV files that has the accumelated intensity and mean intensity for the protein signal (here it is eps8 protein) 
+10. Perform Cell Clustering 'buttom': find the IHC, OHC1, OHC2, and OHC3 using either GMM or Kmeans. Those layers will be added to the plugin to be used during the analysis. 
+11. Compute Protein Intensity 'buttom': produce plots and CSV files that has the accumelated intensity and mean intensity for the protein signal (here it is eps8 protein).
+12. Predict Region 'buttom': Predict whether the region is from the BASE, MIDDLE, or APEX region using a RESNET50 trained model. 
 
 ![Training section](images/Training_section.png)
+This section is for the research ear community incase their datasets are little different than ours then they can easily create their cround truth, train a new model and use it in the plugin
+1. Create/Save Ground Truth 'buttom': this buttom will create a new layer to draw new ground truth and save them as variables inside the plugin
+2. Generate Ground Truth Mask 'buttom': this buttom will save all the generated masks after finish annotating to a new folder. 
+3. Display Stored Ground Truth 'buttom': this buttom will display the stored masks in the plugin.
+4. Copy Segmentation Masks to Ground Truth 'buttom': this buttom helps in speeding up the annotation process by copying what our trained model is producing sothat the annotator will only correct the wrong part.
+5. Move Ground Truth to Training Folder 'buttom': this buttom will move all the annotated ground truth to the training folder to start the training process. 
+6. Check Training Data 'buttom': this buttom checks the training data whether they follow the format needed by the architecture. It checks whether there are training and valiation folders and it reads every single file to make sure it doesn't have redundant or no information. It gives warning messages incase it finds an issue.
+7. Train New Model for 3DCiliaSeg 'buttom': this buttom will start the training.
+
+We have also two more buttoms for resetting and also exit VASCilia.
+
+
 
 ### Project Authors and Contacts
 
