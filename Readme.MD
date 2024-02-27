@@ -52,8 +52,15 @@ Multi-object assignment algorithm to produce robust 3D detection
 ![multi-object assignment algorithm to produce robust 3D detection](images/multi_object_ass_algorithm.png)
 
 3DCiliaSeg can tackles challenged cases
-
 ![](images/challenged_cases.png)
+
+7. Delete Label 'buttom': delete the unwanted detection if it is near the boundary or for any other reason.
+8. Calculate measurments 'buttom': calculate different measurments from the detected bundles and store them in csv file
+9. Calculate Distance 'buttom': compute the 3D distance from the highest point in the 3D detection of each bundle to it's base. This calculation will consider the sample resolution.
+10. Perform Cell Clustering 'buttom': find the IHC, OHC1, OHC2, and OHC3 using either GMM or Kmeans. Those layers will be added to the plugin to be used during the analysis 
+11. Compute Protein Intensity 'buttom': produce plots and CSV files that has the accumelated intensity and mean intensity for the protein signal (here it is eps8 protein) 
+
+
 
 ### Project Authors and Contacts
 
